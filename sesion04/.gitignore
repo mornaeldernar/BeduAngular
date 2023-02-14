@@ -7,10 +7,7 @@
 /bazel-out
 
 # Node
-sesion01/node_modules
-sesion03/ejemplo01/node_modules
-sesion03/ejemplo02/node_modules
-sesion04/node_modules
+/node_modules
 npm-debug.log
 yarn-error.log
 
