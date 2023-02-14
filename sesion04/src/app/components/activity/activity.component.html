@@ -1,0 +1,13 @@
+
+<h1>Actividad</h1>
+<button (click)="actividades()">Ver Actividades</button>
+
+<div *ngIf="display">
+  <h3>{{ activityData.activity }}</h3>
+  <h4>{{ activityData.type }}</h4>
+  <h4>{{ activityData.participants }}</h4>
+  <h4>{{ activityData.price }}</h4>
+  <h4>{{ activityData.link }}</h4>
+  <h4>{{ activityData.key }}</h4>
+  <h4>{{ activityData.accessibility }}</h4>
+</div>

@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="valor">
+<button (click)="buscar()">buscar</button>
+<div *ngIf="display">
+<h2>{{respuesta.name}}</h2>
+<h3>{{respuesta.gender}}</h3>
+<h5>{{respuesta.probability}}</h5>
+<h6>{{respuesta.count}}</h6>
+</div>
